@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 175px;
+    height: 75px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #668dc0;
+}
+
+nav {
+    background: #668dc0;
+    position: absolute;
+    width: 100%;
+    height: 75px;
+}
+
+.tabla, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+.tabla {
+    top: 150px;
+    left: 500px;
+    position: fixed;
+    background: white;
+    width: auto;
+    height: auto;
+}
+
+.filtros {
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 4px;
+    background: #069;
+    left: 100px;
+}
+
+.filtros h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.control {
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #069;
+    font-size: 18px;
+    background: white;
+}
+
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    background: #069;
+    position: fixed;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background: #0f1c30;
+    top: 93%;
+}
+
+.line {
+    border-right: 1px solid black;
+    height: 300px;
+}
