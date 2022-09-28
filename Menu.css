@@ -152,12 +152,26 @@ footer {
 
 .ingreso {
     position: fixed;
-    width: 400px;
-    height: 100px;
+    top: 20px;
+    width: 700px;
+    height: 60px;
     padding: 30px;
     margin: auto;
     margin-top: 75px;
     border-radius: 4px;
-    background: #069;
-    left: 100px;
+    left: 30%;
+}
+
+.ingreso h5{
+    font-size: 150%;
+}
+
+.ingresar {
+    width: 55%;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #069;
+    font-size: 18px;
+    background: white;
 }
