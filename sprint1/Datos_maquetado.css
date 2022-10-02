@@ -4,53 +4,6 @@
     padding: 0;
 }
 
-nav {
-    background: #059;
-}
-
-
-body{
-    overflow: hidden;
-}
-
-.barra{
-    position: absolute;
-    width: 300px;
-    height: 100vh;
-    background: #069;
-}
-
-.barra a{
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: 15px;
-    font-size: 20px;
-}
-
-h2{
-    text-align: center;
-    background: #059;
-    color: black;
-    padding: 10px;
-}
-
-li{
-    outline: 1px solid #059;
-    transition: all .3s;
-}
-
-li:hover{
-    background: #059;
-    border-left: 3px solid white;
-}
-
-.titulo{
-    text-align: center;
-    color: black;
-}
-
 .logo img {
     width: 175px;
     height: 75px;
@@ -135,30 +88,4 @@ footer {
 .line {
     border-right: 1px solid black;
     height: 300px;
-}
-
-.ingreso {
-    position: fixed;
-    top: 20px;
-    width: 700px;
-    height: 60px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 75px;
-    border-radius: 4px;
-    left: 30%;
-}
-
-.ingreso h5{
-    font-size: 150%;
-}
-
-.ingresar {
-    width: 55%;
-    padding: 7px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    border: 1px solid #069;
-    font-size: 18px;
-    background: white;
 }

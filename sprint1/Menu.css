@@ -8,6 +8,13 @@ nav {
     background: #059;
 }
 
+.logo img {
+    width: 175px;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 body{
     overflow: hidden;
@@ -49,6 +56,12 @@ li:hover{
 .titulo{
     text-align: center;
     color: black;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .logo img {
@@ -139,26 +152,12 @@ footer {
 
 .ingreso {
     position: fixed;
-    top: 20px;
-    width: 700px;
-    height: 60px;
+    width: 400px;
+    height: 100px;
     padding: 30px;
     margin: auto;
     margin-top: 75px;
     border-radius: 4px;
-    left: 30%;
-}
-
-.ingreso h5{
-    font-size: 150%;
-}
-
-.ingresar {
-    width: 55%;
-    padding: 7px;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    border: 1px solid #069;
-    font-size: 18px;
-    background: white;
+    background: #069;
+    left: 100px;
 }
