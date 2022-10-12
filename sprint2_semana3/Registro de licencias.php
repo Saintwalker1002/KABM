@@ -1,3 +1,6 @@
+<?php
+    $conexion =  mysqli_connect('localhost','root','','');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,34 +25,32 @@
         <aside class="filtros">
             <div class="line">
             <h4>filtros de busqueda</h4>
-             <form action="tablas.php"></form>
-              <input class="control" type="text" placeholder="Nombre">
-              <input class="control" type="text" placeholder="Apellido">
-              <input class="control" type="text" placeholder="Rut">
-              <input class="control" type="text" placeholder="Correo">
-              <p></p>
-              <input type="submit" value="Ordenar y filtrar">
-             </form>
+            <input class="control" type="text" placeholder="Nombre">
+            <input class="control" type="text" placeholder="Apellido">
+            <input class="control" type="text" placeholder="Rut">
+            <input class="control" type="text" placeholder="Fecha">
+            <p></p>
+            <input type="submit" value="Ordenar y filtrar">
             </div>
         </aside>
-        <table class="tabla">
+        <table class="tabla" style="width: 60%;">
             <tr>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Rut</th>
-                <th>Correo</th>
+                <th>registro de licencia</th>
             </tr>
             <tr>
                 <td>Martin</td>
                 <td>Vallejo</td>
                 <td>20.726.970-0</td>
-                <td>mvallejo@</td>
+                <td>22/06/22</td>
             </tr>
             <tr>
-                <td>Fabian</td>
-                <td>Balmaseda</td>
-                <td>21.710.865-3</td>
-                <td>balmaseda@</td>
+                <td>Daniel</td>
+                <td>Ortega</td>
+                <td>30.886.140-k</td>
+                <td>06/10/22</td>
             </tr>
         </table>
     </div>

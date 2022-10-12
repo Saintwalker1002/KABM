@@ -12,6 +12,7 @@
 }
 
 #navegador{
+    position: absolute;
     display: grid;
     height: 75px;
     grid-column-start: 1; 
@@ -406,4 +407,10 @@ input {
 
 ul li {
     text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 90px;
+    left: 100px;
 }
