@@ -51,7 +51,8 @@
                         <th>Fecha de termino (3)</th>
                     </tr>
                     <?php
-                        $sql = "SELECT nombres, apellidos, Rut, vacaciones_inicio, vacaciones_termino from vacaciones; from kamb";
+                        $sql = "SELECT nombres, apellidos, Rut, vacaciones_inicio, vacaciones_termino from vacaciones";
+                        $sql2= "SELECT nombres, apellidos, Rut from kabm";
                         $result = mysqli_query($conexion,$sql);
 
                         while($mostrar = mysqli_fetch_array($result)) {
