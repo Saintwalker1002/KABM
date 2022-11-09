@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+	<link rel="stylesheet" href="estilos.css">
+	
+
+</head>  
+<body>
+    <form id="formulario" class="formulario">
+    
+    <h1>Registro</h1>
+    <div class="contenedor">
+     
+        <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="text" placeholder="Nombre" id="nombres" required>
+         
+        </div>
+         
+        <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" placeholder="Apellido" id="apellidos" required>
+           
+        </div>   
+         
+        <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="text" placeholder="Rut" id="Rut" required>
+            
+        </div>
+
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="text" placeholder="sexo" id="sexo" required>
+            
+         </div>
+        
+         <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" placeholder="Correo Electronico" id="correo" required>
+            
+            </div>
+
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="text" placeholder="fecha de nacimiento" id="fecha_nacimiento" required>
+            
+         </div>
+        
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="text" placeholder="estado civil" id="estado_civil" required>
+            
+         </div>
+        
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="text" placeholder="comuna" id="comuna" required>
+            
+         </div>
+        
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Contraseña" id="contraseña" required>
+         
+         </div>
+
+         <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Confirmar Contraseña" id="c_contraseña" required>
+            
+         </div>
+         <button type="button" onclick="guardar()">Guardar</button>
+         <button type="button" onclick="limpiar()">Limpiar</button>
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+         <p>¿Ya tienes una cuenta?<a class="link" href="index.html">Iniciar Sesion</a></p>
+     </div>
+    </form>
+    <script src="main2.js"></script>
+</body>
+</html>
